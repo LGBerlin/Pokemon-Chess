@@ -1,0 +1,12 @@
+{
+  "version":"2.0.0",
+  "tasks":[{
+    "label":"Play Pokemon Chess (direct)",
+    "type":"process",
+    "command":"/opt/homebrew/bin/python3.14",
+    "args":["${workspaceFolder}/pokemon_chess.py"],
+    "options":{"cwd":"${workspaceFolder}"},
+    "problemMatcher":[],
+    "group":{"kind":"build","isDefault":true}
+  }]
+}
