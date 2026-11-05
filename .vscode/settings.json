@@ -1,0 +1,9 @@
+{
+  "python.defaultInterpreterPath": "/opt/homebrew/bin/python3.14",
+  "python.terminal.activateEnvironment": false,
+  "code-runner.runInTerminal": true,
+  "code-runner.executorMapByFileExtension": {".py": "/opt/homebrew/bin/python3.14 -u"},
+  "code-runner.executorMap": {"python": "/opt/homebrew/bin/python3.14 -u"},
+  "code-runner.fileDirectoryAsCwd": true,
+  "code-runner.ignoreSelection": true
+}
