@@ -5,9 +5,12 @@
       "name": "Play Pokemon Chess",
       "type": "debugpy",
       "request": "launch",
+      "python": "/opt/homebrew/bin/python3.14",
       "program": "${workspaceFolder}/pokemon_chess.py",
+      "cwd": "${workspaceFolder}",
       "console": "integratedTerminal",
-      "cwd": "${workspaceFolder}"
+      "justMyCode": true,
+      "redirectOutput": false
     }
   ]
 }
