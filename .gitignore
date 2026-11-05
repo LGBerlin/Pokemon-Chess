@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.DS_Store
+sprite_download_report.txt
+pokemon_chess_sprites/**/*.png
+chess_piece_sprites/**/*.png
